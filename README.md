@@ -13,13 +13,17 @@
 
 #### for yellow (left):
 
+```
 WASD - movement
 space - shoot
+```
 
 #### for red (right):
 
+```
 arrowkeys - movement
 right ctrl - shoot
+```
 
 #### you obviously can change movement if you want to,
 #### as well as maximum number of bullets, speed and etc.
