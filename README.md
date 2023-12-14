@@ -11,18 +11,17 @@
 
 ## controls
 
-# for yellow (left):
+#### for yellow (left):
 
 WASD - movement
 space - shoot
 
-# for red (right):
+#### for red (right):
 
 arrowkeys - movement
 right ctrl - shoot
 
-# you obviously can change movement if you want to,
+#### you obviously can change movement if you want to,
+#### as well as maximum number of bullets, speed and etc.
 
-# as well as maximum number of bullets, speed and etc.
-
-#### made by akireev13 as a University project 14.12.2023
+# made by akireev13 as a University project 14.12.2023
