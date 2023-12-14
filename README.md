@@ -1,13 +1,13 @@
 ## How to start playing
 
 1. run these commands in terminal in an empty folder:
-
-   git clone <url of repo>
+```
+   git clone "url of repo"
    pip install -r requirements.txt
+```
+3. run main.py using terminal or IDE
 
-2. run main.py using terminal or IDE
-
-3. enjoy!
+4. enjoy!
 
 ## controls
 
