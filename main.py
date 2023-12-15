@@ -25,10 +25,11 @@ WINNER_FONT = pygame.font.SysFont('Arial', 120)
 
 FPS = 120
 VEL = 3
-BULLET_VEL = 6
+BULLET_VEL = 9
 MAX_BULLETS = 5
 SOLDIER_WIDTH, SOLDIER_HEIGHT = 67, 88
-
+RED_BULLET_COLOR = (99, 31, 31)
+YELLOW_BULLET_COLOR = (99, 71, 10)
 YELLOW_HIT = pygame.USEREVENT + 1
 RED_HIT = pygame.USEREVENT + 2
 
@@ -68,10 +69,10 @@ def draw_window(red, yellow, red_bullets, yellow_bullets, red_health, yellow_hea
     WIN.blit(border_surface, (BORDER.x, BORDER.y))
 
     for bullet in red_bullets:
-        pygame.draw.rect(WIN, RED, bullet)
+        pygame.draw.rect(WIN, RED_BULLET_COLOR, bullet)
 
     for bullet in yellow_bullets:
-        pygame.draw.rect(WIN, YELLOW, bullet)
+        pygame.draw.rect(WIN, YELLOW_BULLET_COLOR, bullet)
 
     pygame.display.update()
 
